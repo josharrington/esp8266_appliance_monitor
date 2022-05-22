@@ -41,6 +41,8 @@ Connect the 3.3v and GRD pins to the + and - headers respectively. The digital p
 
 Test the board by waiting for the LED to stop blinking and giving it a shake. You can see debug output by clicking Tools->Serial Monitor. Set the baud rate to 115200.
 
+If the sensor is too sensitive, you can turn the small dial on the sensor clockwise to reduce sensitivity.
+
 ## Usage
 
 When the board starts, it will enter a grace period mode to allow the user to start the appliance without accidentally triggering the alert. The LED will flash until the grace period is completed.
