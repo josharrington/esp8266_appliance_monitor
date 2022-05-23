@@ -18,6 +18,7 @@ Connect the 3.3v and GRD pins to the + and - headers respectively. The digital p
 
 - An account at [PushingBox](https://www.pushingbox.com/index.php) for managing notifications.
   - Set up a new scenario with the services you want to interface with. Make note of the scenario's device ID.
+- Install the Silicon Labs USB to UART drivers from [here](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers).
 - [Arduino IDE](https://www.arduino.cc/en/software) installed
   - Go to File->Preferences and copy the URL below to get the ESP board manager extensions: http://arduino.esp8266.com/stable/package_esp8266com_index.json
   - Restart the Arduino IDE
